@@ -1,0 +1,13 @@
+Package: balancedKmeans
+Type: Package
+Title: The balanced k-means algorithm
+Version: 0.1.0
+Author: Akinori Ito
+Maintainer: Akinori Ito <aito@spcom.ecei.tohoku.ac.jp>
+Description: Balanced k-means algorithm makes equal-sized clusters using a method similar to the k-means algorithm, based on the following paper: Malinen, M. I., & Fränti, P. (2014, August). Balanced k-means for clustering. In Joint IAPR International Workshops on Statistical Techniques in Pattern Recognition (SPR) and Structural and Syntactic Pattern Recognition (SSPR) (pp. 32-41). Springer, Berlin, Heidelberg.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
+Imports: clue
